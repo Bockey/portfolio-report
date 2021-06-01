@@ -1,0 +1,151 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: rgba(235, 235, 235, 0.459);
+}
+header {
+  min-height: 10vh;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+}
+main {
+  min-height: 80vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: baseline;
+  padding: 20vh 0;
+}
+footer {
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.visibility {
+  display: none;
+}
+/*typography*/
+p,
+a,
+footer,
+button {
+  font-size: 18px;
+  text-decoration: none;
+  color: #000;
+  background: none;
+  border: none;
+  text-shadow: 0.5px 0.5px 3px rgba(0, 0, 0, 0.438);
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+h2 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 25px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.3s ease-in-out;
+  text-shadow: 0.5px 0.5px 3px rgba(0, 0, 0, 0.438);
+  text-align: center;
+}
+h2:hover {
+  background-color: rgba(235, 235, 235, 0.459);
+}
+/*header*/
+h1 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-family: serif;
+  font-size: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  text-shadow: 0.5px 0.5px 3px rgba(0, 0, 0, 0.438);
+  padding: 20px;
+  text-align: center;
+}
+/*cards*/
+.rainy-days,
+.museum,
+.motofied {
+  width: 400px;
+  margin: 20px;
+  background-color: #fff;
+  box-shadow: 3px 3px 16px #000;
+}
+.rainy-days-image {
+  background-image: url(/images/rainy-days.jpg);
+}
+.museum-image {
+  background-image: url(/images/museum.jpg);
+}
+.motofied-image {
+  background-image: url(/images/motofied.jpg);
+}
+.image {
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 400px;
+  min-height: 300px;
+  display: flex;
+  color: white;
+  align-items: center;
+  justify-content: center;
+}
+
+.links {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+  padding: 10px 0;
+}
+p {
+  background-color: #fff;
+  padding: 20px;
+  text-align: left;
+  line-height: 1.2rem;
+  text-shadow: none;
+}
+button {
+  cursor: pointer;
+}
+.githubLink:hover,
+button:hover {
+  color: rgba(235, 235, 235, 0.459);
+  text-shadow: 1px 1px 1px #000;
+}
+.underline {
+  text-decoration: underline;
+}
+.logo {
+  text-shadow: 0.5px 0.5px 3px rgba(0, 0, 0, 0.438);
+  padding: 20px;
+  width: 100px;
+  text-align: center;
+  box-shadow: 0.5px 0.5px 3px rgba(0, 0, 0, 0.438);
+  margin: 10px;
+}
+
+@media (max-width: 401px) {
+  .rainy-days,
+  .museum,
+  .motofied {
+    width: 350px;
+    margin: 20px 0;
+  }
+  .image {
+    width: 350px;
+  }
+  h1 {
+    padding-top: 10vh;
+  }
+}
