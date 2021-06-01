@@ -149,9 +149,3 @@ button:hover {
     padding-top: 20vh;
   }
 }
-@media only screen and (-webkit-min-device-pixel-ratio: 4) {
-  /* CSS */
-  h1 {
-    padding-top: 20vh;
-  }
-}
