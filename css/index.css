@@ -135,7 +135,7 @@ button:hover {
   margin: 10px;
 }
 
-@media (max-width: 401px) {
+@media (max-width: 401px) and (-webkit-min-device-pixel-ratio: 4) {
   .rainy-days,
   .museum,
   .motofied {
