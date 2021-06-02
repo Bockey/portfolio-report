@@ -34,7 +34,8 @@ footer {
 p,
 a,
 footer,
-button {
+button,
+section {
   font-size: 18px;
   text-decoration: none;
   color: #000;
@@ -108,12 +109,21 @@ h1 {
   width: 100%;
   padding: 10px 0;
 }
-p {
+section {
   background-color: #fff;
   padding: 20px;
+}
+section p {
   text-align: left;
   line-height: 1.2rem;
   text-shadow: none;
+  padding: 10px 0;
+}
+.more-white-space {
+  padding-bottom: 30px;
+}
+.less-white-space {
+  padding: 0;
 }
 button {
   cursor: pointer;

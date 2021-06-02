@@ -1,20 +1,20 @@
 const rainyBtn = document.querySelector(".rainy-days button");
-const rainyParagraph = document.querySelector(".rainy-days p");
+const rainySection = document.querySelector(".rainy-days section");
 const museumBtn = document.querySelector(".museum button");
-const museumParagraph = document.querySelector(".museum p");
+const museumSection = document.querySelector(".museum section");
 const motofiedBtn = document.querySelector(".motofied button");
-const motofiedParagraph = document.querySelector(".motofied p");
+const motofiedSection = document.querySelector(".motofied section");
 const main = document.querySelector("main");
 
 rainyBtn.addEventListener("click", function () {
-  rainyParagraph.classList.toggle("visibility");
+  rainySection.classList.toggle("visibility");
   rainyBtn.classList.toggle("underline");
 });
 museumBtn.addEventListener("click", function () {
-  museumParagraph.classList.toggle("visibility");
+  museumSection.classList.toggle("visibility");
   museumBtn.classList.toggle("underline");
 });
 motofiedBtn.addEventListener("click", function () {
-  motofiedParagraph.classList.toggle("visibility");
+  motofiedSection.classList.toggle("visibility");
   motofiedBtn.classList.toggle("underline");
 });
